@@ -1,0 +1,44 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  color: #fe5d42;
+}
+
+.wrap button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #fe5d42;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter {
+  position: absolute;
+  top: 44px;
+  left: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+}
